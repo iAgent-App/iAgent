@@ -1,4 +1,4 @@
- # iAgent
+  # iAgent
  
 ## Overview
 
@@ -37,12 +37,15 @@ A "LinkedIn for athletes", this app allows athletes to connect with prospective 
     - User is able to see a video that combines all of their highlights and has to option to post to the feed  
 
 2. Screen Archetypes
+
     **1st screen - Login/Sign Up & Create Profile**
     Associated user story:
     - User can login
     - User can create a profile (either athlete, coach, scout, org) (if user is creating a profile there are multiple other screens they will see)
     
+    
     **2nd screen - user profile**
+    
     Associated user story: 
     - User can view their profile
     - User can view their highlights
@@ -54,21 +57,29 @@ A "LinkedIn for athletes", this app allows athletes to connect with prospective 
     - User can leave a comment on another user’s highlights
     - User can see their suggested network
     
+    
     **3rd screen - organizations**
+    
     Associated user story:
     - User can search for schools/organizations
 
 
+
     **4th screen - chat**
+    
     Associated user story: 
     - User can chat with other users
 
+
     **Optional 5th screen - feed**
+    
     Associated optional user story:
     - User can see a feed of their connections' updates (including added highlights)
     - User is able to see a video that combines all of their highlights and has to option to post to the feed  
     
+    
     **Optional 6th screen - jobs**
+    
     Associated optional user story:
     - User can search for jobs
     
@@ -94,4 +105,19 @@ A "LinkedIn for athletes", this app allows athletes to connect with prospective 
     - *Profile tab -> Jobs tab (optional)
     - Organizations tab -> individual school/org that user searched for
     - Chat tab -> individual connection chat
-    
+
+## Wireframes
+<img src="https://imgur.com/FM7Hv24.jpg" width=800><br>
+
+### [BONUS] Digital Wireframes & Mockups
+Login/Signup & Create Account
+<img src="https://imgur.com/INRbFTf.jpg" height=200>
+
+Profile & Stats & Connection Profile & individual Chat
+<img src="https://imgur.com/vaHCltA.jpg" height=200>
+
+Organizations
+<img src="https://imgur.com/kPoRqRM.jpg" height=200>
+
+Chats
+<img src="https://imgur.com/FRNH9mK.jpg" height=200>
