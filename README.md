@@ -113,11 +113,15 @@ A "LinkedIn for athletes", this app allows athletes to connect with prospective 
 Login/Signup & Create Account
 <img src="https://imgur.com/INRbFTf.jpg" height=200>
 
+
 Profile & Stats & Connection Profile & individual Chat
 <img src="https://imgur.com/vaHCltA.jpg" height=200>
+
 
 Organizations
 <img src="https://imgur.com/kPoRqRM.jpg" height=200>
 
+
 Chats
 <img src="https://imgur.com/FRNH9mK.jpg" height=200>
+
