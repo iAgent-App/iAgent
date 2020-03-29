@@ -110,6 +110,8 @@ A "LinkedIn for athletes", this app allows athletes to connect with prospective 
 <img src="https://imgur.com/FM7Hv24.jpg" width=800><br>
 
 ### [BONUS] Digital Wireframes & Mockups
+Mockups Created Here: https://hackmd.io/s/rygvKkO8I
+
 Login/Signup & Create Account
 
 <img src="https://imgur.com/INRbFTf.jpg" height=200>
