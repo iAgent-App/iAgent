@@ -160,3 +160,53 @@ Organizations
 
 Chats
 <img src="https://imgur.com/FRNH9mK.jpg" height=200>
+
+## Schema
+### Models
+Users
+<img src="https://imgur.com/EDYBFM2.jpg"
+width=700 height=600>
+<img src="https://imgur.com/2QlISVm.jpg">
+Posts
+<img src="https://imgur.com/Z3dlNl8.jpg">
+
+### Networking
+<img src="https://imgur.com/4uOSWuh.jpg"
+width=700 height=600>
+Code Snippets
+* (Read/GET) Query user’s login information
+*same for password, first name, last name, and email*
+let loginQuery = PFQuery…
+query.whereKey(“username”, equalTo: currentUser)
+For (currentUser)
+-- Find the username
+----	If username is found
+--------		print “Welcome!”
+--------	    User sees profile page
+----	else if username is not found
+--------		print “No user exists with the given username. Please create an account.”
+
+* (Create/POST) initial creation of user stat*
+PFObject *newStat...
+For (newStat)
+--	if(succeeded)
+---- Get the stat that the user has added 
+---- (maybe have example/template stats for them?)
+--	Else
+---- Print “There was a problem adding your stat”...
+
+* (Delete/DELETE) Delete Stats
+Remove *oldStat…
+-- if(succeeded)
+---- print(“Stat removed successfully!”)
+--	Else
+---- print (“There was a problem removing your stat”)
+
+* (Update/PUT) Update user info
+let [newData] = [data].text
+currentProfile["[data]"] = newData
+Save data in background 
+-- if (success) 
+---- print("Changes saved")
+-- else 
+---- print("Error saving changes")
