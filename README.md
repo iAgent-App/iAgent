@@ -1,4 +1,4 @@
-  # iAgent
+ # iAgent
  
 ## Overview
 
@@ -19,14 +19,20 @@ A "LinkedIn for athletes", this app allows athletes to connect with prospective 
 1. User Stories (Required and Optional)
     Required Must-have Stories
 
-    - User can view their profile
-    - User can see their connections/network
-    - User can view their stats
-    - User can view their highlights
-    - User can search for schools/organizations
-    - User can login
-    - User can create a profile (either athlete, coach, scout, org)
-    - User can chat with other users
+    1. User can view their profile
+    2. User can see their connections
+    3. User can view their stats
+    4. User can add a stat
+    5. User can view their highlights
+    6. User can add a highlight
+    7. User can search for organizations
+    8. User can login
+    9. User can logout
+    10. User can create a profile (either athlete, coach, or org)
+    11. User can chat with other users
+    12. User can add a profile picture
+    13. User can switch between tabs
+    14. User can view all of their highlights
 
     Optional Nice-to-have Stories
     - User can search/filter their highlights by keyword
@@ -35,99 +41,122 @@ A "LinkedIn for athletes", this app allows athletes to connect with prospective 
     - User can leave comment on another user’s highlights
     - User can see a feed of their connections' updates (including added highlights)
     - User is able to see a video that combines all of their highlights and has to option to post to the feed  
+    - User can moodify select app features
 
 2. Screen Archetypes
-
     **1st screen - Login/Sign Up & Create Profile**
-    Associated user story:
-    - User can login
-    - User can create a profile (either athlete, coach, scout, org) (if user is creating a profile there are multiple other screens they will see)
-    
+    Associated user stories:
+    - 8. User can login
+    - 10. User can create a profile (either athlete, coach, scout, org) (if user is creating a profile there are multiple other screens they will see)
     
     **2nd screen - user profile**
-    
     Associated user story: 
-    - User can view their profile
-    - User can view their highlights
-    - User can view their stats
-    - User can see their connections/network
+    - 1. User can view their profile
+    - 2. User can see their connections
+    - 4. User can add a stat
+    - 5. User can view their highlights
     
     Associated optional user story:
     - User can search/filter their highlights by keyword
     - User can leave a comment on another user’s highlights
     - User can see their suggested network
     
-    
     **3rd screen - organizations**
-    
     Associated user story:
-    - User can search for schools/organizations
-
+    - 7. User can search for organizations
 
 
     **4th screen - chat**
-    
     Associated user story: 
-    - User can chat with other users
+    - 11. User can chat with other users
 
-
-    **Optional 5th screen - feed**
+    **5th screen - settings**
+    Associated user story: 
+    - 12. User can add a profile picture
     
     Associated optional user story:
+    - User can modify select app features
+
+    **6th screen - stats**
+    Associated user story: 
+    - 3. User can view their stats
+
+    **7th screen - All highlights**
+    Associated user story: 
+    - 14. User can view all of their highlights
+    
+    **8th screen - Add highlight**
+    Associated user story: 
+    - 6. User can add a highlight
+
+    **9th screen (overlays) - Tabs view**
+    Associated user stories: 
+    - 9. User can logout
+    - 13. User can switch between tabs
+
+    **Optional screen - feed**
+    Associated optional user stories:
     - User can see a feed of their connections' updates (including added highlights)
     - User is able to see a video that combines all of their highlights and has to option to post to the feed  
     
-    
-    **Optional 6th screen - jobs**
-    
+    **Optional screen - jobs**
     Associated optional user story:
     - User can search for jobs
+
     
 3. Navigation
     Tab Navigation (Tab to Screen)
 
-    - Profile
-    - Organizations
-    - Chat
-    - *Feed (optional)
-    - *Jobs (optional)
+    - Main tab-bar (hamburger style):
+    -- Profile
+    -- Organizations
+    -- Chat
+    -- Highlights
+    -- *Feed (optional)
+    -- *Jobs (optional)
+    - Other tab-bar (pull style):
+    -- Stats
 
     Flow Navigation (Screen to Screen)
 
     - Login/Signup page (if user has no account) -> Create Profile page 
-    - Login/Signup page (if user has an account) -> user's Profile tab
-    - Profile tab -> individual connection profile
-    - Profile tab -> Chat tab
-    - Profile tab -> individual connection chat
-    - Profile tab -> user's stats
-    - Profile tab -> Organizations tab
-    - *Profile tab -> Feed tab (optional)
-    - *Profile tab -> Jobs tab (optional)
-    - Organizations tab -> individual school/org that user searched for
-    - Chat tab -> individual connection chat
+    - Login/Signup page (if user has an account) -> user's Profile Page
+    - tab bar menu -> Profile tab
+    -- Profile tab -> User's Profile Page
+    -- Profile Page -> individual connection profile
+    -- Profile Page -> Chat tab
+    -- Profile Page -> individual connection chat
+    -- Profile Page -> user's stats tab
+    - tab bar menu -> Stats tab
+    -- Stats tab -> user's stats page
+    -- User stats page -> user can view their stats
+    - tab bar menu -> Organizations tab
+    -- Organizations tab -> Ogranizations Page
+    -- Organizations Page -> individual school/org that user searched for
+    - tab bar menu -> Chat tab
+    -- Chat tab -> Chat Page
+    -- Chat Page -> individual connection chat
+    - tab bar menu -> Highlights tab
+    -- Highlights tab -> All highlights page
+    -- Highlights Page-> add highlight page
+    -- Highlights Page->individual highlight details
+    - *tab bar menu -> Feed tab (optional)
+    - *tab bar menu -> Jobs tab (optional)
 
 ## Wireframes
-<img src="https://imgur.com/FM7Hv24.jpg" width=800><br>
+<img src="https://imgur.com/JeKDBuO.jpg" width=800><br>
+"Hamburger" Tab Bar View
+<img src="https://imgur.com/2PMBvJL.jpg" width=400><br>
 
 ### [BONUS] Digital Wireframes & Mockups
-Mockups Created Here: https://www.figma.com/file/jPnZJrEE5Pzq0FtenmuGf5/iAgent?node-id=0%3A1
-
 Login/Signup & Create Account
-
 <img src="https://imgur.com/INRbFTf.jpg" height=200>
 
-
 Profile & Stats & Connection Profile & individual Chat
-
 <img src="https://imgur.com/vaHCltA.jpg" height=200>
 
-
 Organizations
-
 <img src="https://imgur.com/kPoRqRM.jpg" height=200>
 
-
 Chats
-
 <img src="https://imgur.com/FRNH9mK.jpg" height=200>
-
