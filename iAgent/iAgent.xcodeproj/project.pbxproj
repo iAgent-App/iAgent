@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,9 @@
 		D7D00DB6243D278700F26284 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7D00DB4243D278700F26284 /* LaunchScreen.storyboard */; };
 		D7D00DC1243D278700F26284 /* iAgentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D00DC0243D278700F26284 /* iAgentTests.swift */; };
 		D7D00DCC243D278700F26284 /* iAgentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D00DCB243D278700F26284 /* iAgentUITests.swift */; };
+		D7D6DEED243FC46100898B0A /* CreateAccount2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D6DEEC243FC46100898B0A /* CreateAccount2ViewController.swift */; };
+		D7D6DEEF243FCA8700898B0A /* CreateAccount1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D6DEEE243FCA8700898B0A /* CreateAccount1ViewController.swift */; };
+		D7D6DEF1243FE12100898B0A /* AthleteSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D6DEF0243FE12100898B0A /* AthleteSignupViewController.swift */; };
 		E9BDAB1AF9052A01775A37D0 /* Pods_iAgent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CA0BB989C223D521DA7373A /* Pods_iAgent.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +63,9 @@
 		D7D00DC7243D278700F26284 /* iAgentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iAgentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7D00DCB243D278700F26284 /* iAgentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iAgentUITests.swift; sourceTree = "<group>"; };
 		D7D00DCD243D278700F26284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7D6DEEC243FC46100898B0A /* CreateAccount2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccount2ViewController.swift; sourceTree = "<group>"; };
+		D7D6DEEE243FCA8700898B0A /* CreateAccount1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccount1ViewController.swift; sourceTree = "<group>"; };
+		D7D6DEF0243FE12100898B0A /* AthleteSignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthleteSignupViewController.swift; sourceTree = "<group>"; };
 		E0D46BF89FCAFB97B44AA68A /* Pods-iAgent-iAgentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iAgent-iAgentUITests.release.xcconfig"; path = "Target Support Files/Pods-iAgent-iAgentUITests/Pods-iAgent-iAgentUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,7 +107,6 @@
 				23A6E0C1D8B68556CCBED903 /* Pods-iAgentTests.debug.xcconfig */,
 				B818BDA0C65159241FE6805B /* Pods-iAgentTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -147,6 +152,9 @@
 				D7D00DB2243D278700F26284 /* Assets.xcassets */,
 				D7D00DB4243D278700F26284 /* LaunchScreen.storyboard */,
 				D7D00DB7243D278700F26284 /* Info.plist */,
+				D7D6DEEE243FCA8700898B0A /* CreateAccount1ViewController.swift */,
+				D7D6DEEC243FC46100898B0A /* CreateAccount2ViewController.swift */,
+				D7D6DEF0243FE12100898B0A /* AthleteSignupViewController.swift */,
 			);
 			path = iAgent;
 			sourceTree = "<group>";
@@ -408,9 +416,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7D6DEEF243FCA8700898B0A /* CreateAccount1ViewController.swift in Sources */,
 				D7D00DAE243D278200F26284 /* ViewController.swift in Sources */,
+				D7D6DEF1243FE12100898B0A /* AthleteSignupViewController.swift in Sources */,
 				D7D00DAA243D278200F26284 /* AppDelegate.swift in Sources */,
 				D7D00DAC243D278200F26284 /* SceneDelegate.swift in Sources */,
+				D7D6DEED243FC46100898B0A /* CreateAccount2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
