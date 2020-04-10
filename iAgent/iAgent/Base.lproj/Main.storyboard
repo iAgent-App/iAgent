@@ -80,7 +80,7 @@
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="4NZ-6j-X61" kind="show" id="Xyf-ak-4Nw"/>
+                                    <action selector="onSignup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fIE-Xi-P6p"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oua-K9-aTC">
@@ -120,6 +120,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="GcA-aW-mZs"/>
+                    <connections>
+                        <outlet property="emailField" destination="j84-ch-RCx" id="Une-a9-syP"/>
+                        <outlet property="firstNameField" destination="qzJ-GF-zJJ" id="RSt-7P-wIZ"/>
+                        <outlet property="lastNameField" destination="6dM-RQ-TPA" id="T6L-M2-rAK"/>
+                        <outlet property="passwordField" destination="EnR-qs-NUf" id="OO9-A6-vYa"/>
+                        <outlet property="usernameField" destination="kYb-X1-BUU" id="fr9-9C-ZR7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -253,7 +260,7 @@
             <objects>
                 <viewController id="Eqy-E4-dlm" customClass="AthleteSignupViewController" customModule="iAgent" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lne-33-khV">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What primary sport do you play? *" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s3i-HJ-8Qk">
@@ -389,7 +396,7 @@
                                 </state>
                             </button>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ofM-jK-nM9">
-                                <rect key="frame" x="16" y="417" width="359" height="250"/>
+                                <rect key="frame" x="16" y="397" width="359" height="250"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="250" id="zrv-UW-nfP"/>
@@ -419,7 +426,7 @@
             <objects>
                 <viewController id="AAY-6w-70B" customClass="ViewController" customModule="iAgent" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EU5-dk-dC4">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Coach/Agent Signup" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7dy-5S-OeZ">
