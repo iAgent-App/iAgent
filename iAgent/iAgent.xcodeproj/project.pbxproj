@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0037559D2442A49700C1A79D /* CoachSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0037559C2442A49700C1A79D /* CoachSignupViewController.swift */; };
+		006B636B2442ADEC00CF5FF0 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006B636A2442ADEC00CF5FF0 /* ProfileViewController.swift */; };
 		00F1370A2442501000A27830 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F137092442501000A27830 /* LoginViewController.swift */; };
 		3A7F81AE77C4580686EAD8C7 /* Pods_iAgent_iAgentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 701E2DF88F781968ABD8A6F4 /* Pods_iAgent_iAgentUITests.framework */; };
 		B47D6B84BFC451DDE80C56EE /* Pods_iAgentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1C49185C7936597B653BD5 /* Pods_iAgentTests.framework */; };
@@ -44,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		0037559C2442A49700C1A79D /* CoachSignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachSignupViewController.swift; sourceTree = "<group>"; };
+		006B636A2442ADEC00CF5FF0 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		00F137092442501000A27830 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		23A6E0C1D8B68556CCBED903 /* Pods-iAgentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iAgentTests.debug.xcconfig"; path = "Target Support Files/Pods-iAgentTests/Pods-iAgentTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2631AC7A2EAF5955E889E6F0 /* Pods-iAgent-iAgentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iAgent-iAgentUITests.debug.xcconfig"; path = "Target Support Files/Pods-iAgent-iAgentUITests/Pods-iAgent-iAgentUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 				D7D6DEF0243FE12100898B0A /* AthleteSignupViewController.swift */,
 				00F137092442501000A27830 /* LoginViewController.swift */,
 				0037559C2442A49700C1A79D /* CoachSignupViewController.swift */,
+				006B636A2442ADEC00CF5FF0 /* ProfileViewController.swift */,
 			);
 			path = iAgent;
 			sourceTree = "<group>";
@@ -428,6 +431,7 @@
 				D7D6DEF1243FE12100898B0A /* AthleteSignupViewController.swift in Sources */,
 				D7D00DAA243D278200F26284 /* AppDelegate.swift in Sources */,
 				0037559D2442A49700C1A79D /* CoachSignupViewController.swift in Sources */,
+				006B636B2442ADEC00CF5FF0 /* ProfileViewController.swift in Sources */,
 				D7D00DAC243D278200F26284 /* SceneDelegate.swift in Sources */,
 				D7D6DEED243FC46100898B0A /* CreateAccount2ViewController.swift in Sources */,
 			);
