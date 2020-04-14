@@ -19,29 +19,29 @@ A "LinkedIn for athletes", this app allows athletes to connect with prospective 
 1. User Stories (Required and Optional)
     Required Must-have Stories
 
-    1. User can view their profile
-    2. User can see their connections
-    3. User can view their stats
-    4. User can add a stat
-    5. User can view their highlights
-    6. User can add a highlight
-    7. User can search for organizations
-    8. User can login
-    9. User can logout
-    10. User can create a profile (either athlete, coach, or org)
-    11. User can chat with other users
-    12. User can add a profile picture
-    13. User can switch between tabs
-    14. User can view all of their highlights
+   - [x] User can view their profile
+   - [ ] User can see their connections
+   - [ ] User can view their stats
+   - [ ] User can add a stat
+   - [ ] User can view their highlights
+   - [ ] User can add a highlight
+   - [ ] User can search for organizations
+   - [x] User can login
+   - [x] User can logout
+   - [x] User can create a profile (either athlete, coach, or org)
+   - [ ] User can chat with other users
+   - [ ] User can add a profile picture
+   - [ ] User can switch between tabs
+   - [ ] User can view all of their highlights
 
     Optional Nice-to-have Stories
-    - User can search/filter their highlights by keyword
-    - User can search for jobs
-    - User can see their suggested network
-    - User can leave comment on another user’s highlights
-    - User can see a feed of their connections' updates (including added highlights)
-    - User is able to see a video that combines all of their highlights and has to option to post to the feed  
-    - User can moodify select app features
+    - [ ] User can search/filter their highlights by keyword
+    - [ ] User can search for jobs
+    - [ ] User can see their suggested network
+    - [ ] User can leave comment on another user’s highlights
+    - [ ] User can see a feed of their connections' updates (including added highlights)
+    - [ ] User is able to see a video that combines all of their highlights and has to option to post to the feed  
+    - [ ] User can moodify select app features
 
 2. Screen Archetypes
     **1st screen - Login/Sign Up & Create Profile**
@@ -210,3 +210,9 @@ Save data in background
 ---- print("Changes saved")
 -- else 
 ---- print("Error saving changes")
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='http://g.recordit.co/nqm0C6uew1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
