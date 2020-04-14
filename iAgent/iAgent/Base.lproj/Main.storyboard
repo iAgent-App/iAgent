@@ -480,6 +480,11 @@
                         <viewLayoutGuide key="safeArea" id="6UX-2s-UsT"/>
                     </view>
                     <navigationItem key="navigationItem" id="Aeu-6F-POs"/>
+                    <connections>
+                        <outlet property="licenseLevelText" destination="YGR-nx-hHJ" id="uT5-LI-oCV"/>
+                        <outlet property="previousTeamText" destination="JbM-cg-lAT" id="qNx-rK-UyY"/>
+                        <outlet property="sportCoachText" destination="9e5-LU-erh" id="vNY-Zg-f3t"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BVz-9L-ihZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
