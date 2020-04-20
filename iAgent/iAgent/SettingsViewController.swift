@@ -1,37 +1,21 @@
 //
-//  ProfileViewController.swift
+//  SettingsViewController.swift
 //  iAgent
 //
-//  Created by user167032 on 4/11/20.
+//  Created by Daniel Hart on 4/14/20.
 //  Copyright © 2020 Daniel Hart. All rights reserved.
 //
 
 import UIKit
 import Parse
 
-class ProfileViewController: UIViewController {
+class SettingsViewController: UIViewController {
 
     @IBOutlet weak var profileImage: UIImageView!
-    @IBOutlet weak var menuView: UIView!
-    @IBAction func onMenuTap(_ sender: Any) {
-        if menuView.isHidden {
-            menuView.isHidden = false
-        } else {
-            menuView.isHidden = true
-        }
-    }
-    @IBAction func onSignOut(_ sender: Any) {
-        PFUser.logOut()
-        if PFUser.current() == nil {
-            performSegue(withIdentifier: "logoutSegue", sender: Any?(nilLiteral: ()))
-        }
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        menuView.isHidden = true
-        
         // Do any additional setup after loading the view.
     }
     

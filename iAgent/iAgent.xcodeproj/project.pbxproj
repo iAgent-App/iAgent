@@ -12,6 +12,7 @@
 		00F1370A2442501000A27830 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F137092442501000A27830 /* LoginViewController.swift */; };
 		3A7F81AE77C4580686EAD8C7 /* Pods_iAgent_iAgentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 701E2DF88F781968ABD8A6F4 /* Pods_iAgent_iAgentUITests.framework */; };
 		B47D6B84BFC451DDE80C56EE /* Pods_iAgentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1C49185C7936597B653BD5 /* Pods_iAgentTests.framework */; };
+		D72299D2244653B700E2944B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72299D1244653B700E2944B /* SettingsViewController.swift */; };
 		D7D00DAA243D278200F26284 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D00DA9243D278200F26284 /* AppDelegate.swift */; };
 		D7D00DAC243D278200F26284 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D00DAB243D278200F26284 /* SceneDelegate.swift */; };
 		D7D00DAE243D278200F26284 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D00DAD243D278200F26284 /* ViewController.swift */; };
@@ -55,6 +56,7 @@
 		7CA0BB989C223D521DA7373A /* Pods_iAgent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iAgent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B818BDA0C65159241FE6805B /* Pods-iAgentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iAgentTests.release.xcconfig"; path = "Target Support Files/Pods-iAgentTests/Pods-iAgentTests.release.xcconfig"; sourceTree = "<group>"; };
 		CF1C49185C7936597B653BD5 /* Pods_iAgentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iAgentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D72299D1244653B700E2944B /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		D7D00DA6243D278200F26284 /* iAgent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iAgent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7D00DA9243D278200F26284 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7D00DAB243D278200F26284 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 				D7D6DEEC243FC46100898B0A /* CreateAccount2ViewController.swift */,
 				D7D6DEF0243FE12100898B0A /* AthleteSignupViewController.swift */,
 				00F137092442501000A27830 /* LoginViewController.swift */,
+				D72299D1244653B700E2944B /* SettingsViewController.swift */,
 				0037559C2442A49700C1A79D /* CoachSignupViewController.swift */,
 				006B636A2442ADEC00CF5FF0 /* ProfileViewController.swift */,
 			);
@@ -428,6 +431,7 @@
 				00F1370A2442501000A27830 /* LoginViewController.swift in Sources */,
 				D7D6DEEF243FCA8700898B0A /* CreateAccount1ViewController.swift in Sources */,
 				D7D00DAE243D278200F26284 /* ViewController.swift in Sources */,
+				D72299D2244653B700E2944B /* SettingsViewController.swift in Sources */,
 				D7D6DEF1243FE12100898B0A /* AthleteSignupViewController.swift in Sources */,
 				D7D00DAA243D278200F26284 /* AppDelegate.swift in Sources */,
 				0037559D2442A49700C1A79D /* CoachSignupViewController.swift in Sources */,

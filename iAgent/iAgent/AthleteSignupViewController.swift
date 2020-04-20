@@ -11,8 +11,13 @@ import UIKit
 class AthleteSignupViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource, UITextFieldDelegate {
     
 
+    @IBOutlet weak var proCollegeChoice: UISegmentedControl!
     @IBOutlet weak var sportTextField: UITextField!
     @IBOutlet weak var sportPicker: UIPickerView!
+    @IBOutlet weak var heightFieldFeet: UITextField!
+    @IBOutlet weak var heightFieldInch: UITextField!
+    @IBOutlet weak var weightField: UITextField!
+    @IBOutlet weak var prevClubField: UITextField!
     
     var sports = ["-- Choose Sport --", "Basketball", "Football", "Soccer", "Track & Field"]
     

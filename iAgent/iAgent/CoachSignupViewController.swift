@@ -13,9 +13,15 @@ import UIKit
 
 class CoachSignupViewController: UIViewController {
 
+    @IBOutlet weak var coachSportField: UITextField!
+    @IBOutlet weak var prevClubField: UITextField!
+    @IBOutlet weak var coachLicenseField: UITextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        
         // Do any additional setup after loading the view.
     }
     

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Parse
 
 class CreateAccount1ViewController: UIViewController {
 
@@ -15,9 +16,26 @@ class CreateAccount1ViewController: UIViewController {
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var usernameField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
+    
     @IBAction func onSignup(_ sender: Any) {
+        var user = PFUser()
+        user.username = usernameField.text!
+        user.password = passwordField.text!
+        user.email = emailField.text!
+        user["firstname"] = firstNameField.text!
+        user["lastname"] = lastNameField.text!
+        
+        user.signUpInBackground { (success, error) in
+            if success {
+                self.performSegue(withIdentifier: "segue", sender: Any?.self)
+            } else {
+                print("Error signing up user")
+            }
+        }
+        
         
     }
+    
     
     
     override func viewDidLoad() {
