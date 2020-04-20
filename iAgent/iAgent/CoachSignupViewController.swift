@@ -7,16 +7,12 @@
 //
 
 import UIKit
-//oulet for sportCoachText
-//outlet for previousTeamText
-//outlet for licenseLevelText
 
-class CoachSignupViewController: UIViewController {
-
-    @IBOutlet weak var coachSportField: UITextField!
-    @IBOutlet weak var prevClubField: UITextField!
-    @IBOutlet weak var coachLicenseField: UITextField!
+class CoachSignupViewController: UIViewController{
     
+    @IBOutlet weak var sportCoachText: UITextField!
+    @IBOutlet weak var previousTeamText: UITextField!
+    @IBOutlet weak var licenseLevelText: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
