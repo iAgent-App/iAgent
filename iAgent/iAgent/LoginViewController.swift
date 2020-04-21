@@ -7,14 +7,12 @@
 //
 
 import UIKit
-//import Parse
+import Parse
 
 class LoginViewController: UIViewController {
 
     @IBOutlet weak var Password: UITextField!
     @IBOutlet weak var Username: UITextField!
-    @IBOutlet weak var SignUp: UIButton!
-    @IBOutlet weak var loginButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +22,7 @@ class LoginViewController: UIViewController {
     
     //when user clicks login button
     @IBAction func onLogIn(_ sender: Any) {
+        let user = PFUser()
         let username = Username.text!
         let password = Password.text!
         
@@ -37,7 +36,7 @@ class LoginViewController: UIViewController {
         }
     }
     
-    //when user clicks Sign Up
+    //when user clicks Sign Up button
     @IBAction func onSignUp(_ sender: Any) {
     
         //takes user to CreateAccount1ViewController
