@@ -1,23 +1,21 @@
 //
-//  CoachSignupViewController.swift
+//  SettingsViewController.swift
 //  iAgent
 //
-//  Created by user167032 on 4/11/20.
+//  Created by Daniel Hart on 4/14/20.
 //  Copyright © 2020 Daniel Hart. All rights reserved.
 //
 
 import UIKit
+import Parse
 
-class CoachSignupViewController: UIViewController{
-    
-    @IBOutlet weak var sportCoachText: UITextField!
-    @IBOutlet weak var previousTeamText: UITextField!
-    @IBOutlet weak var licenseLevelText: UITextField!
+class SettingsViewController: UIViewController {
+
+    @IBOutlet weak var profileImage: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
+
         // Do any additional setup after loading the view.
     }
     

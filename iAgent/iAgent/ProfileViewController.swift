@@ -7,12 +7,31 @@
 //
 
 import UIKit
+import Parse
 
 class ProfileViewController: UIViewController {
 
+    @IBOutlet weak var profileImage: UIImageView!
+    @IBOutlet weak var menuView: UIView!
+    @IBAction func onMenuTap(_ sender: Any) {
+        if menuView.isHidden {
+            menuView.isHidden = false
+        } else {
+            menuView.isHidden = true
+        }
+    }
+    @IBAction func onSignOut(_ sender: Any) {
+        PFUser.logOut()
+        if PFUser.current() == nil {
+            performSegue(withIdentifier: "logoutSegue", sender: Any?(nilLiteral: ()))
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        menuView.isHidden = true
+        
         // Do any additional setup after loading the view.
     }
     
