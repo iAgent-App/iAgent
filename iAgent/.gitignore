@@ -1,5 +1,5 @@
 # Mac OS X
-*.DS_Store
+.DS_Store
 
 # Xcode
 *.pbxuser
@@ -7,8 +7,9 @@
 *.mode2v3
 *.perspectivev3
 *.xcuserstate
-iAgent.xcworkspace/
-xcuserdata/
+iAgent.xcodeproj/xcuserdata/**
+iAgent.xcworkspace/xcuserdata/**
+Pods/Pods.xcodeproj/xcuserdata/**
 
 # Generated files
 *.o
