@@ -31,7 +31,7 @@ A "LinkedIn for athletes", this app allows athletes to connect with prospective 
    - [x] User can create a profile (either athlete, coach, or org)
    - [ ] User can chat with other users
    - [ ] User can add a profile picture
-   - [ ] User can switch between tabs
+   - [x] User can switch between tabs
    - [ ] User can view all of their highlights
 
     Optional Nice-to-have Stories
