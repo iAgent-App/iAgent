@@ -610,8 +610,7 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-<<<<<<< Updated upstream
-=======
+<!--fixed merge issues-->
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="i.e. student athlete at Howard University" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iur-dZ-a55">
                                 <rect key="frame" x="34" y="96" width="306" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
