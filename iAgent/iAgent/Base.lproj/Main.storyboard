@@ -12,7 +12,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="CreateAccount1ViewController" customModule="iAgent" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="First Name *" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="995-MG-X7Z">
@@ -84,7 +84,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oua-K9-aTC">
-                                <rect key="frame" x="54.5" y="86" width="266" height="48"/>
+                                <rect key="frame" x="54.5" y="98" width="266" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -138,7 +138,7 @@
             <objects>
                 <viewController id="4NZ-6j-X61" customClass="CreateAccount2ViewController" customModule="iAgent" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YFh-67-hUk">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gender *" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Anz-yM-Oyo">
@@ -236,7 +236,7 @@
                                 </connections>
                             </button>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wda-B1-ish">
-                                <rect key="frame" x="0.0" y="451" width="375" height="216"/>
+                                <rect key="frame" x="0.0" y="431" width="375" height="216"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                             </pickerView>
                         </subviews>
@@ -265,7 +265,7 @@
             <objects>
                 <viewController id="Eqy-E4-dlm" customClass="AthleteSignupViewController" customModule="iAgent" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lne-33-khV">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What primary sport do you play? *" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s3i-HJ-8Qk">
@@ -392,16 +392,19 @@
                                 </segments>
                             </segmentedControl>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eGn-oB-6U2">
-                                <rect key="frame" x="108" y="602" width="155" height="45"/>
+                                <rect key="frame" x="108" y="593" width="155" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="22"/>
                                 <state key="normal" title="Create Profile">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="lck-qA-GcD" kind="presentation" id="qMc-OP-IIu"/>
+                                </connections>
                             </button>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ofM-jK-nM9">
-                                <rect key="frame" x="0.0" y="417" width="375" height="250"/>
+                                <rect key="frame" x="0.0" y="397" width="375" height="250"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="250" id="zrv-UW-nfP"/>
@@ -431,7 +434,7 @@
             <objects>
                 <viewController id="AAY-6w-70B" customClass="CoachSignupViewController" customModule="iAgent" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EU5-dk-dC4">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What primary sport do you coach? *" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pZo-c5-ieB">
@@ -474,7 +477,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6uo-ja-SAm">
-                                <rect key="frame" x="127.5" y="497" width="120" height="55"/>
+                                <rect key="frame" x="127.5" y="477" width="120" height="55"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="8V5-ya-b1e"/>
@@ -483,6 +486,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Create Profile"/>
+                                <connections>
+                                    <segue destination="lck-qA-GcD" kind="presentation" id="pEb-Gu-8XA"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -503,7 +509,7 @@
             </objects>
             <point key="canvasLocation" x="3400.8000000000002" y="127.28635682158921"/>
         </scene>
-        <!--Profile View Controller-->
+        <!--Profile-->
         <scene sceneID="gES-cJ-CgB">
             <objects>
                 <viewController id="y0f-vE-whg" customClass="ProfileViewController" customModule="iAgent" customModuleProvider="target" sceneMemberID="viewController">
@@ -575,12 +581,13 @@
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AsV-lA-CpF">
                                         <rect key="frame" x="12" y="599" width="140" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <state key="normal" title="Sign Out">
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                        <state key="normal" title="Settings">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
                                             <action selector="onSignOut:" destination="y0f-vE-whg" eventType="touchUpInside" id="kld-fl-C9B"/>
+                                            <segue destination="Lf5-e3-uaw" kind="showDetail" id="eOi-iH-3vF"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -603,9 +610,6 @@
                                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
                                                 <state key="normal" title="Settings"/>
                                             </button>
-                                            <connections>
-                                                <segue destination="uZW-m0-ftt" kind="showDetail" id="2uV-fi-xYh"/>
-                                            </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
@@ -614,6 +618,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="1sE-TB-JEE"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Profile" id="q0L-cc-1aP"/>
                     <connections>
                         <outlet property="menuView" destination="LFP-vP-d3l" id="c8U-HG-D6T"/>
                         <outlet property="profileImage" destination="z1H-FW-JMx" id="69L-WS-EOe"/>
@@ -621,7 +626,52 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TKV-Ft-xlQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="500" y="958.4707646176912"/>
+            <point key="canvasLocation" x="1113" y="958"/>
+        </scene>
+        <!--Settings View Controller-->
+        <scene sceneID="3Ma-GH-73b">
+            <objects>
+                <viewController id="Lf5-e3-uaw" customClass="SettingsViewController" customModule="iAgent" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="liB-g6-htD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="atg-ae-Kku">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Settings" id="qYg-pk-6H0"/>
+                                </items>
+                            </navigationBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="person.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="zKm-LZ-AEV">
+                                <rect key="frame" x="125" y="75.5" width="125" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fO2-jp-D8d">
+                                <rect key="frame" x="95" y="209" width="185" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Change Profile Picture"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z1r-PA-kHv">
+                                <rect key="frame" x="157" y="554" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Sign Out"/>
+                                <connections>
+                                    <action selector="onSignOut:" destination="Lf5-e3-uaw" eventType="touchUpInside" id="jfV-sz-YJq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="qHr-TG-SPL"/>
+                    </view>
+                    <connections>
+                        <outlet property="profileImage" destination="zKm-LZ-AEV" id="BpA-8m-1oU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wky-Yo-Ulg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1892" y="957.57121439280365"/>
         </scene>
         <!--Chat View Controller-->
         <scene sceneID="KRp-Ql-dpX">
@@ -700,28 +750,13 @@
             </objects>
             <point key="canvasLocation" x="500" y="1701"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="dfn-pn-sgc">
-            <objects>
-                <viewController id="uZW-m0-ftt" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="f16-6Z-g7v">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="mml-fu-lq3"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Gej-U6-edt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1351" y="958"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="Pfx-g4-qZ1">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="o4s-eO-24T" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6Gv-Lf-Yqs">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -799,6 +834,7 @@
                                 <state key="normal" title="Sign Up"/>
                                 <connections>
                                     <action selector="onSignUp:" destination="IMB-D1-voA" eventType="touchUpInside" id="xit-v0-lNa"/>
+                                    <segue destination="o4s-eO-24T" kind="presentation" id="2UZ-hr-nDl"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -810,14 +846,35 @@
                         <outlet property="SignUp" destination="POn-xR-84D" id="ilV-1h-D29"/>
                         <outlet property="Username" destination="2eR-UB-p9H" id="0mN-4v-VYQ"/>
                         <outlet property="loginButton" destination="3k5-UQ-Olw" id="3Eo-DO-Sxt"/>
-                        <segue destination="y0f-vE-whg" kind="presentation" identifier="loginSegue" id="T2O-rG-szv"/>
+                        <segue destination="lck-qA-GcD" kind="presentation" identifier="loginSegue" id="T2O-rG-szv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y3c-fp-GTQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-614" y="504"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="BlJ-yJ-hQU">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lck-qA-GcD" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ZSv-pe-BUl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="y0f-vE-whg" kind="relationship" relationship="rootViewController" id="Rus-Qq-Wce"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hKw-K8-KDb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="360.80000000000001" y="957.57121439280365"/>
+        </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="T2O-rG-szv"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="globe" catalog="system" width="128" height="121"/>
         <image name="line.horizontal.3" catalog="system" width="128" height="64"/>

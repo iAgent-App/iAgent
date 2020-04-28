@@ -12,6 +12,12 @@ import Parse
 class SettingsViewController: UIViewController {
 
     @IBOutlet weak var profileImage: UIImageView!
+    @IBAction func onSignOut(_ sender: Any) {
+        PFUser.logOut()
+        if PFUser.current() == nil {
+            performSegue(withIdentifier: "logoutSegue", sender: Any?(nilLiteral: ()))
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
