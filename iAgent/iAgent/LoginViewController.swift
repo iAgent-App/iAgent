@@ -36,11 +36,6 @@ class LoginViewController: UIViewController {
         }
     }
     
-    //when user clicks Sign Up button
-    @IBAction func onSignUp(_ sender: Any) {
-    
-        //takes user to CreateAccount1ViewController
-    }
     
     /*
     // MARK: - Navigation
