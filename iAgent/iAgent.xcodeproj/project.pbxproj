@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0022BAB42457CA2800912CFE /* OrgSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0022BAB32457CA2800912CFE /* OrgSearchViewController.swift */; };
 		0037559D2442A49700C1A79D /* CoachSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0037559C2442A49700C1A79D /* CoachSignupViewController.swift */; };
 		006B636B2442ADEC00CF5FF0 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006B636A2442ADEC00CF5FF0 /* ProfileViewController.swift */; };
 		00B1CBD42449281100CC5428 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B1CBD32449281100CC5428 /* ChatCell.swift */; };
@@ -47,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0022BAB32457CA2800912CFE /* OrgSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrgSearchViewController.swift; sourceTree = "<group>"; };
 		0037559C2442A49700C1A79D /* CoachSignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachSignupViewController.swift; sourceTree = "<group>"; };
 		006B636A2442ADEC00CF5FF0 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		00B1CBD32449281100CC5428 /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 				006B636A2442ADEC00CF5FF0 /* ProfileViewController.swift */,
 				00CB7ECF244907350006778A /* ChatViewController.swift */,
 				00B1CBD32449281100CC5428 /* ChatCell.swift */,
+				0022BAB32457CA2800912CFE /* OrgSearchViewController.swift */,
 			);
 			path = iAgent;
 			sourceTree = "<group>";
@@ -441,6 +444,7 @@
 				D72299D2244653B700E2944B /* SettingsViewController.swift in Sources */,
 				D7D6DEF1243FE12100898B0A /* AthleteSignupViewController.swift in Sources */,
 				D7D00DAA243D278200F26284 /* AppDelegate.swift in Sources */,
+				0022BAB42457CA2800912CFE /* OrgSearchViewController.swift in Sources */,
 				0037559D2442A49700C1A79D /* CoachSignupViewController.swift in Sources */,
 				006B636B2442ADEC00CF5FF0 /* ProfileViewController.swift in Sources */,
 				D7D00DAC243D278200F26284 /* SceneDelegate.swift in Sources */,
