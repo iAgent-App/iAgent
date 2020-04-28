@@ -29,7 +29,7 @@ A "LinkedIn for athletes", this app allows athletes to connect with prospective 
    - [x] User can login
    - [x] User can logout
    - [x] User can create a profile (either athlete, coach, or org)
-   - [ ] User can chat with other users
+   - [x] User can chat with other users
    - [ ] User can add a profile picture
    - [x] User can switch between tabs
    - [ ] User can view all of their highlights
