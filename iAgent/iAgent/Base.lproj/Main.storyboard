@@ -623,11 +623,7 @@
                                 <rect key="frame" x="13" y="55" width="35" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="user icon" translatesAutoresizingMaskIntoConstraints="NO" id="kro-lb-8Cn">
-                                <rect key="frame" x="25" y="144" width="77" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
->>>>>>> Stashed changes
+<!--fixed merge issues-->
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="1sE-TB-JEE"/>
