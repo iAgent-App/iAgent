@@ -25,7 +25,7 @@ A "LinkedIn for athletes", this app allows athletes to connect with prospective 
    - [ ] User can add a stat
    - [ ] User can view their highlights
    - [ ] User can add a highlight
-   - [ ] User can search for organizations
+   - [x] User can search for organizations
    - [x] User can login
    - [x] User can logout
    - [x] User can create a profile (either athlete, coach, or org)
