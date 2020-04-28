@@ -12,6 +12,7 @@ import Parse
 class ChatViewController: UIViewController {
 
     @IBOutlet weak var newChatText: UITextField!
+    @IBOutlet weak var chatMessageField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
