@@ -559,6 +559,9 @@
                                         <state key="normal" title="Organizations">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="vO3-wQ-Yv8" kind="presentation" id="1bG-AL-Sne"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iDz-eb-1Vh">
                                         <rect key="frame" x="56" y="188" width="125" height="34"/>
@@ -758,6 +761,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TfB-TA-obG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="361" y="1733"/>
+        </scene>
+        <!--Org Search View Controller-->
+        <scene sceneID="wDQ-MC-aN5">
+            <objects>
+                <viewController id="vO3-wQ-Yv8" customClass="OrgSearchViewController" customModule="iAgent" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4nm-Kk-hwY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="uaa-EK-O6g"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d0B-aZ-Sgo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1113" y="1733"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Pfx-g4-qZ1">
