@@ -421,8 +421,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="hNK-mN-xJB"/>
                     <connections>
+                        <outlet property="heightFieldFeet" destination="1CK-Tz-zBq" id="k9L-zE-wda"/>
+                        <outlet property="heightFieldInch" destination="O8G-N8-t66" id="E1z-hx-4vw"/>
+                        <outlet property="prevClubField" destination="ob8-xz-kCm" id="AaU-Yn-sSh"/>
+                        <outlet property="proCollegeChoice" destination="zSW-Hl-T0f" id="no2-hv-ih3"/>
                         <outlet property="sportPicker" destination="ofM-jK-nM9" id="ui6-ud-OCY"/>
                         <outlet property="sportTextField" destination="DV8-ap-Vul" id="irO-ug-VvO"/>
+                        <outlet property="weightField" destination="Lt5-MN-QsH" id="vo8-RD-ynv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h6x-KA-xwY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -562,6 +567,9 @@
                                         <state key="normal" title="Chats">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="gHt-is-ZQo" kind="presentation" id="vUm-pg-R6Z"/>
+                                        </connections>
                                     </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="person" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="GR3-0Z-fmb">
                                         <rect key="frame" x="23" y="90.5" width="25" height="25"/>
@@ -678,7 +686,7 @@
             <objects>
                 <viewController id="gHt-is-ZQo" customClass="ChatViewController" customModule="iAgent" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kzQ-kj-QZ3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b8p-Ak-EUB">
@@ -688,7 +696,7 @@
                                     <navigationItem title="CHAT" id="8Sr-lz-jZb">
                                         <barButtonItem key="rightBarButtonItem" style="plain" id="wGF-6M-OlZ">
                                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3XY-0U-kCv">
-                                                <rect key="frame" x="276" y="7" width="83" height="30"/>
+                                                <rect key="frame" x="276" y="13" width="83" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
                                                 <state key="normal" title="Settings"/>
@@ -742,13 +750,14 @@
                         <viewLayoutGuide key="safeArea" id="oS5-Mh-gkV"/>
                     </view>
                     <connections>
+                        <outlet property="chatMessageField" destination="coK-PS-OfO" id="gO3-mH-nq0"/>
                         <outlet property="newChatText" destination="coK-PS-OfO" id="22c-xT-lrU"/>
                         <outlet property="sendChat" destination="N34-EU-USs" id="bZO-9Q-Ad6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TfB-TA-obG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="500" y="1701"/>
+            <point key="canvasLocation" x="361" y="1733"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Pfx-g4-qZ1">
