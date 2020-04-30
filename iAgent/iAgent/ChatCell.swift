@@ -23,13 +23,4 @@ class ChatCell: UITableViewCell, UITableViewDataSource {
         // Configure the view for the selected state
     }
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
-    }
-
-
 }

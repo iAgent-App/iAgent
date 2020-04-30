@@ -756,6 +756,7 @@
                         <outlet property="chatMessageField" destination="coK-PS-OfO" id="gO3-mH-nq0"/>
                         <outlet property="newChatText" destination="coK-PS-OfO" id="22c-xT-lrU"/>
                         <outlet property="sendChat" destination="N34-EU-USs" id="bZO-9Q-Ad6"/>
+                        <outlet property="tableView" destination="wCs-Hl-ElJ" id="2Lj-6y-ifC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TfB-TA-obG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
