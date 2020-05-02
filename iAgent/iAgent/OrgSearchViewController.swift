@@ -12,6 +12,7 @@ class OrgSearchViewController: UIViewController {
 
     @IBOutlet weak var searchField: UITextField!
     @IBOutlet weak var connectionIconButton: UIButton!
+    @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
