@@ -17,7 +17,7 @@ class AthleteSignupViewController: UIViewController, UIPickerViewDelegate, UIPic
     @IBOutlet weak var heightFieldFeet: UITextField!
     @IBOutlet weak var heightFieldInch: UITextField!
     @IBOutlet weak var weightField: UITextField!
-    @IBOutlet weak var prevClubField: UITextField!
+    @IBOutlet weak var currentClubField: UITextField!
     
     var sports = ["-- Choose Sport --", "Basketball", "Football", "Soccer", "Track & Field"]
     

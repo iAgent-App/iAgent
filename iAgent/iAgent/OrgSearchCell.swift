@@ -1,24 +1,20 @@
 //
-//  ChatCell.swift
+//  OrgSearchCell.swift
 //  iAgent
 //
-//  Created by user167032 on 4/16/20.
+//  Created by Daniel Hart on 5/2/20.
 //  Copyright © 2020 Daniel Hart. All rights reserved.
 //
 
 import UIKit
 
-class ChatCell: UITableViewCell, UITableViewDataSource {
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        <#code#>
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
-    }
-    
+class OrgSearchCell: UITableViewCell {
 
-    //tableView.dataSource = self
+    @IBOutlet weak var orgNameLabel: UILabel!
+    @IBAction func addToNetwork(_ sender: Any) {
+        
+    }
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -30,5 +26,5 @@ class ChatCell: UITableViewCell, UITableViewDataSource {
 
         // Configure the view for the selected state
     }
-    
+
 }

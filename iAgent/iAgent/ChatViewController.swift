@@ -10,14 +10,18 @@ import UIKit
 import Parse
 import SwiftUI
 
-class ChatViewController: UIViewController {
+class ChatViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
+    @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var newChatText: UITextField!
     @IBOutlet weak var chatMessageField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        tableView.dataSource = self
+        tableView.delegate = self
+        
         // Do any additional setup after loading the view.
     }
     
@@ -39,6 +43,16 @@ class ChatViewController: UIViewController {
             }
         }
     }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 0
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ChatCell", for: indexPath) as! ChatCell
+        return cell
+    }
+    
     /*
     // MARK: - Navigation
 
