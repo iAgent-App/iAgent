@@ -625,6 +625,11 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dz9-PC-okR">
+                                <rect key="frame" x="329" y="250" width="46" height="274"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Stats"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="1sE-TB-JEE"/>
@@ -633,11 +638,12 @@
                     <connections>
                         <outlet property="menuView" destination="LFP-vP-d3l" id="c8U-HG-D6T"/>
                         <outlet property="profileImage" destination="z1H-FW-JMx" id="69L-WS-EOe"/>
+                        <outlet property="statsButton" destination="dz9-PC-okR" id="0O1-kt-3nU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TKV-Ft-xlQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1113" y="958"/>
+            <point key="canvasLocation" x="1112.8" y="957.57121439280365"/>
         </scene>
         <!--Settings View Controller-->
         <scene sceneID="3Ma-GH-73b">
@@ -992,11 +998,41 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9o7-Yq-A4Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1112.8" y="1732.9835082458771"/>
+            <point key="canvasLocation" x="1170" y="1733"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="5x6-Rc-jQw">
+            <objects>
+                <viewController id="mNF-dc-feP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="L5g-Bk-8ek">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="ARR-cY-3dG"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Og7-fW-Z7p" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1892" y="2516"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="jPR-t8-ywh">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bao-vO-UxR" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="yYp-JD-E7y">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h1u-kj-gAc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1892" y="1733"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="T2O-rG-szv"/>
+        <segue reference="pEb-Gu-8XA"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="globe" catalog="system" width="128" height="121"/>

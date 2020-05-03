@@ -11,6 +11,7 @@ import Parse
 
 class ProfileViewController: UIViewController {
 
+    @IBOutlet weak var statsButton: UIButton!
     @IBOutlet weak var profileImage: UIImageView!
     @IBOutlet weak var menuView: UIView!
     @IBAction func onMenuTap(_ sender: Any) {
@@ -26,6 +27,8 @@ class ProfileViewController: UIViewController {
         super.viewDidLoad()
 
         menuView.isHidden = true
+        //make stat button appear vertical
+        statsButton.transform = CGAffineTransform(rotationAngle: -CGFloat.pi / 2)
         
         // Do any additional setup after loading the view.
     }
