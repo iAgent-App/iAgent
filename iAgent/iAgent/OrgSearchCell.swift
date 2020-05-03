@@ -10,12 +10,6 @@ import UIKit
 
 class OrgSearchCell: UITableViewCell {
 
-    @IBOutlet weak var orgNameLabel: UILabel!
-    @IBAction func addToNetwork(_ sender: Any) {
-        
-    }
-    
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
