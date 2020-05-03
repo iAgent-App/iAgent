@@ -10,6 +10,10 @@ import UIKit
 
 class StatsViewController: UIViewController {
 
+    @IBOutlet weak var addStatButton: UIButton!
+    @IBOutlet weak var awardName: UILabel!
+    @IBOutlet weak var awardDetails: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

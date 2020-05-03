@@ -11,6 +11,7 @@ import Parse
 
 class ProfileViewController: UIViewController {
 
+    
     @IBOutlet weak var statsButton: UIButton!
     @IBOutlet weak var profileImage: UIImageView!
     @IBOutlet weak var menuView: UIView!
