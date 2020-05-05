@@ -20,9 +20,9 @@ A "LinkedIn for athletes", this app allows athletes to connect with prospective 
     Required Must-have Stories
 
    - [x] User can view their profile
-   - [ ] User can see their connections
-   - [ ] User can view their stats
-   - [ ] User can add a stat
+   - [x] User can see their connections
+   - [x] User can view their stats
+   - [x] User can add a stat
    - [ ] User can view their highlights
    - [ ] User can add a highlight
    - [x] User can search for organizations
