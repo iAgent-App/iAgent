@@ -7,14 +7,23 @@
 //
 
 import UIKit
+import Parse
 
 class CreateAccount2ViewController: UIViewController, UITextFieldDelegate, UIPickerViewDelegate, UIPickerViewDataSource {
 
+    @IBOutlet weak var genderPick: UISegmentedControl!
+    @IBOutlet weak var otherGenderChoice: UITextField!
     @IBOutlet weak var selectAccountField: UITextField!
     @IBOutlet weak var accountPicker: UIPickerView!
+    @IBOutlet weak var dateOfBirth: UITextField!
+    @IBOutlet weak var countryOfBirth: UITextField!
+    @IBOutlet weak var cityOfResidence: UITextField!
+    
+    let user = PFUser()
     
     @IBAction func nextButtonPressed(_ sender: Any) {
         self.performSegue(withIdentifier: "\(chosenType)Segue", sender: nil)
+        user["account type"] = selectAccountField.text
     }
     
     var accountTypes = ["Athlete", "Coach/Agent"]
@@ -22,6 +31,19 @@ class CreateAccount2ViewController: UIViewController, UITextFieldDelegate, UIPic
     
     override func viewDidLoad() {
         super.viewDidLoad()
+                
+        switch genderPick.selectedSegmentIndex {
+        case 0:
+            user["gender"] = "Male"
+        case 1:
+            user["gender"] = "Female"
+        default:
+            user["gender"] = otherGenderChoice.text!
+        }
+        
+        user["date of birth"] = dateOfBirth.text
+        user["country of birth"] = countryOfBirth.text
+        user["city of residence"] = cityOfResidence.text
         
         selectAccountField.delegate = self
         accountPicker.delegate = self

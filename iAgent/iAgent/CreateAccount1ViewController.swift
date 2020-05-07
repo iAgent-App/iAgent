@@ -18,7 +18,7 @@ class CreateAccount1ViewController: UIViewController {
     @IBOutlet weak var passwordField: UITextField!
     
     @IBAction func onSignup(_ sender: Any) {
-        var user = PFUser()
+        let user = PFUser()
         user.username = usernameField.text!
         user.password = passwordField.text!
         user.email = emailField.text!

@@ -7,10 +7,13 @@
 //
 
 import UIKit
+import Parse
 
 class AthleteSignupViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource, UITextFieldDelegate {
     
 
+    @IBOutlet weak var positionField: UITextField!
+    @IBOutlet weak var dominantFootChoice: UISegmentedControl!
     @IBOutlet weak var proCollegeChoice: UISegmentedControl!
     @IBOutlet weak var sportTextField: UITextField!
     @IBOutlet weak var sportPicker: UIPickerView!
@@ -19,7 +22,9 @@ class AthleteSignupViewController: UIViewController, UIPickerViewDelegate, UIPic
     @IBOutlet weak var weightField: UITextField!
     @IBOutlet weak var currentClubField: UITextField!
     
-    var sports = ["-- Choose Sport --", "Basketball", "Football", "Soccer", "Track & Field"]
+    let user = PFUser()
+    
+    var sports = ["Basketball", "Football", "Soccer", "Track & Field"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,7 +34,28 @@ class AthleteSignupViewController: UIViewController, UIPickerViewDelegate, UIPic
         sportTextField.delegate = self
         
         sportPicker.isHidden = true
-        sportTextField.text = sports[0]
+        sportTextField.text = "-- Choose Sport --"
+        
+        user["height"] = "\(heightFieldFeet.text!) ft. \(heightFieldInch.text!) in."
+        user["weight"] = weightField.text
+        user["currentClub"] = currentClubField.text
+        user["position"] = positionField.text
+        
+        switch proCollegeChoice.selectedSegmentIndex {
+        case 0:
+            user["aspiration"] = "Pro"
+        default:
+            user["aspiration"] = "College"
+        }
+        
+        switch dominantFootChoice.selectedSegmentIndex {
+        case 0:
+            user["dominant foot"] = "Right"
+        case 1:
+            user["dominant foot"] = "Left"
+        default:
+            user["dominant foot"] = "Both"
+        }
         
         // Do any additional setup after loading the view.
     }
