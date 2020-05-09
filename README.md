@@ -214,5 +214,4 @@ Save data in background
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-
-<img src='http://g.recordit.co/nqm0C6uew1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://g.recordit.co/VBletodfCm.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
