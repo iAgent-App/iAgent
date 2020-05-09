@@ -697,7 +697,6 @@
                     <connections>
                         <outlet property="menuView" destination="LFP-vP-d3l" id="c8U-HG-D6T"/>
                         <outlet property="profileImage" destination="z1H-FW-JMx" id="69L-WS-EOe"/>
-                        <outlet property="segControl" destination="FHM-uA-fw6" id="CYb-7v-Dnr"/>
                         <outlet property="statsButton" destination="LNk-iC-Ih2" id="is7-Nh-yRi"/>
                         <outlet property="tableView" destination="mLe-z5-1di" id="hdO-Ts-3oj"/>
                     </connections>
