@@ -1045,7 +1045,9 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="STATS" id="0hU-eq-vpq"/>
+                                    <navigationItem title="STATS" id="0hU-eq-vpq">
+                                        <barButtonItem key="leftBarButtonItem" title="&lt; Back" id="x8i-6k-2jv"/>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PYo-jw-jay">
